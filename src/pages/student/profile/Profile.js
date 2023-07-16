@@ -49,7 +49,7 @@
                     >
                       <Button color="warning" onClick={() => { nav(-1) }} style={{ float: "left", width: "100px" }}>BACK</Button>
                       <CardHeader>
-                        Image
+                      IMAGE
                       </CardHeader>
                       <ListGroup flush >
 
@@ -67,19 +67,17 @@
                         {/*department:"",*/}
                         <ListGroupItem className='d-flex justify-content-around'>
                           <ListGroupItemHeading>
-                            year/ department
+                            YEAR/DEPARTMENT
                           </ListGroupItemHeading>
                           <ListGroupItemText>
                             {form.department}
                           </ListGroupItemText>
                         </ListGroupItem>
 
-
                         {/*dob:"",*/}
-
                         <ListGroupItem className='d-flex justify-content-around'>
                           <ListGroupItemHeading>
-                            Date of birth
+                           DATE OF BIRTH
                           </ListGroupItemHeading>
                           <ListGroupItemText>
                             {form.dob}&nbsp;(yyyy-mm-dd)
@@ -89,7 +87,7 @@
                         {/* gender:"",*/}
                         <ListGroupItem className='d-flex justify-content-around'>
                           <ListGroupItemHeading>
-                            Gender
+                            GENDER
                           </ListGroupItemHeading>
                           <ListGroupItemText>
                             {form.gender}
@@ -98,7 +96,7 @@
                         {/* phonenumber : "",*/}
                         <ListGroupItem className='d-flex justify-content-around'>
                           <ListGroupItemHeading>
-                            Phonenumber
+                            PHONE NUMBERr
                           </ListGroupItemHeading>
                           <ListGroupItemText>
                             {form.phonenumber}
@@ -109,19 +107,17 @@
                         {/*email : "",*/}
                         <ListGroupItem className='d-flex justify-content-around'>
                           <ListGroupItemHeading>
-                            email
+                            EMAIL
                           </ListGroupItemHeading>
                           <ListGroupItemText>
                             {form.email}
                           </ListGroupItemText>
                         </ListGroupItem>
 
-
-
                         {/*location:"",*/}
                         <ListGroupItem className='d-flex justify-content-around'>
                           <ListGroupItemHeading>
-                            location
+                            LOCATION
                           </ListGroupItemHeading>
                           <ListGroupItemText>
                             {form.location}
@@ -139,7 +135,7 @@
                         {/* experience*/}
                         <ListGroupItem className='d-flex justify-content-around'>
                           <ListGroupItemHeading>
-                            mentorId
+                           MENTORID
                           </ListGroupItemHeading>
                           <ListGroupItemText>
                             {form.mentorId}

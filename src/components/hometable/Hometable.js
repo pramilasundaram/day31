@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react'
 
 import { Table, NavLink, Nav, NavItem, UncontrolledDropdown, DropdownToggle, DropdownMenu,DropdownItem} from "reactstrap"
 import { BiShow, BiDotsVerticalRounded } from 'react-icons/bi';
-import { FaEdit, FaTrash } from 'react-icons/fa';
+import { FaEdit, FaTrash,FaList } from 'react-icons/fa';
 import "./Hometable.css"
 import { useNavigate } from 'react-router-dom';
 import { dataContext } from '../contextProvider/Contextprovider';
@@ -54,6 +54,7 @@ export default function Hometable() {
                 <th>Name</th>
                 <th>Deptartment</th>
                 <th>Profile</th>
+                <th>Students List</th>
                 <th>Actions</th>
               </tr>
             </thead>
@@ -64,6 +65,7 @@ export default function Hometable() {
                   <td>{item.name}</td>
                   <td>{item.department}</td>
                   <td><img className="table_Profile_icon" src={item.imageurl} alt="" /></td>
+                  <td><FaList onClick={() => { nav("/studentlist/" + item.id) }} /></td>
                   <td>
                     <UncontrolledDropdown
                       className="me-2"

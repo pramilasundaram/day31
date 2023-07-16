@@ -39,7 +39,6 @@ export default function Profileteacher() {
               width: "100%"
             }}>
             <h1>Teacher's Profile</h1>
-
             <Card
               body
               className="text-center"
@@ -63,11 +62,10 @@ export default function Profileteacher() {
                   </ListGroupItemText>
                 </ListGroupItem>
 
-
                 {/*department:"",*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
-                    department
+                   DEPARTMENT
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     {form.department}
@@ -84,7 +82,6 @@ export default function Profileteacher() {
                   </ListGroupItemText>
                 </ListGroupItem>
 
-
                 {/* education:"",*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
@@ -94,26 +91,27 @@ export default function Profileteacher() {
                     {form.education}
                   </ListGroupItemText>
                 </ListGroupItem>
+
                 {/* experience*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
-                    experience
+                    EXPERIENCE
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     {form.experience}
                   </ListGroupItemText>
                 </ListGroupItem>
 
-
                 {/*dob:"",*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
-                    Date of birth
+                   DATE OF BIRTH
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     {form.dob}
                   </ListGroupItemText>
                 </ListGroupItem>
+
                 {/* gender:"",*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
@@ -123,42 +121,36 @@ export default function Profileteacher() {
                     {form.gender}
                   </ListGroupItemText>
                 </ListGroupItem>
+
                 {/* phonenumber : "",*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
-                    Phonenumber
+                   PHONE NUMBER
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     {form.phonenumber}
                   </ListGroupItemText>
                 </ListGroupItem>
 
-
                 {/*email : "",*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
-                    email
+                    EMAIL
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     {form.email}
                   </ListGroupItemText>
                 </ListGroupItem>
 
-
-
                 {/*location:"",*/}
                 <ListGroupItem className='d-flex justify-content-around'>
                   <ListGroupItemHeading>
-                    location
+                   LOCATION
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     {form.location}
                   </ListGroupItemText>
                 </ListGroupItem>
-
-
-
-
               </ListGroup>
             </Card>
           </Card>
