@@ -1,0 +1,15 @@
+.student_icon {
+    width: 70px;
+  }
+  .teacher_icon {
+    width: 60px;
+  }
+  .Btn {
+    background-color: rgb(129, 213, 236);
+    color: rgb(24, 22, 22);
+    box-shadow: 1px 2px 3px 1px #888888;
+  }
+  .col-md-6 {
+    /* border: 1px solid blue; */
+    padding: 10px;
+  }
